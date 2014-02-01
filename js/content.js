@@ -1,7 +1,30 @@
+var	loaded = 0;
+var prevent = 0;
+
 $(document).on('DOMNodeInserted', function(e) {
+
 	if (e.target.className == "toolbar") {
 		setCode();
 		setEmotes();
+		loaded = 1;
+		$('.answer').click(function(){
+			setCode();
+			setEmotes();
+			console.log("KIDDING");
+		});
+	}
+	if (e.target.className == "item" && loaded == 1) {
+		setCode();
+		setEmotes();
+	}
+});
+
+$(document).on('DOMSubtreeModified', function(e) {
+	if (e.target.className == "item" && loaded == 1 && !prevent)
+	{
+		prevent = 1;
+		setEmotes();
+		setCode();
 	}
 });
 
@@ -13,8 +36,12 @@ function replaceAll(str, chr, rep) {
 }
 
 function setCode() {
-	$("code").addClass("language-clike");
-	$("code").wrap("<pre class='language-clike line-numbers'></pre>");;
+
+	var code = $("code");
+	code.addClass("language-clike");
+	if (code.parent().is("pre"))
+		code.unwrap();
+	code.wrap("<pre class='language-clike line-numbers'></pre>");
 	Prism.highlightAll();
 }
 
@@ -31,4 +58,5 @@ function setEmotes() {
 			$(post).html(res);
 		});
 	});
+	prevent = 0;
 }
