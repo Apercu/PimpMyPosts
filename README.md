@@ -1,4 +1,4 @@
-PimpMyPosts
+![alt tag](img/icon48.png)PimpMyPosts
 ========
 
 Turn this decrepit thing into something cool !
