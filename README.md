@@ -10,4 +10,7 @@ Features:
 
 **How to write an emote ?**
 
-\#Keepo -> ![alt tag](img/emotes/Keepo.png)
+| Key  | Image |
+| ------------- | ------------- |
+| \#Keepo  | ![alt tag](img/emotes/Keepo.png)  |
+| \#Kappa  | ![alt tag](img/emotes/Kappa.png)  |
