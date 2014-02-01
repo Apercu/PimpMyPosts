@@ -1,5 +1,5 @@
 {
-	"name": "PimpMyForum",
+	"name": "PimpMyPosts",
 	"description": "Turn this decrepit thing into something cool",
 	"version": "1.0",
 	"manifest_version": 2,
@@ -9,5 +9,9 @@
 		"matches": ["http://intra.42.fr/forum/*", "https://intra.42.fr/forum/*"],
 		"js": ["js/lib/jquery-2.1.0.min.js", "js/lib/prism.js", "js/content.js"],
 		"css": ["css/prism.css"]
-	}]
+	}],
+	"web_accessible_resources": [
+		"js/emotes.json",
+		"img/emotes/*"
+	]
 }
