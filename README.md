@@ -8,6 +8,12 @@ Features:
 - Transform code blocks
 - Adding some emotes (Twitch)
 
+**How to use the code blocks ?**
+
+Simple, just use the default markup like you've always do.
+
+    [code][/code]
+
 **How to write an emote ?**
 
 | img  | key | img  | key | img | key |
