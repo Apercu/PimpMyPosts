@@ -1,0 +1,13 @@
+{
+	"name": "PimpMyForum",
+	"description": "Turn this decrepit thing into something cool",
+	"version": "0.1",
+	"manifest_version": 2,
+	"icons": {
+	},
+	"content_scripts": [{
+		"matches": ["http://intra.42.fr/forum/*", "https://intra.42.fr/forum/*"],
+		"js": ["js/lib/jquery-2.1.0.min.js", "js/lib/prism.js", "js/content.js"],
+		"css": ["css/prism.css"]
+	}]
+}
