@@ -1,4 +1,8 @@
-console.log("test");
-$(".content code").each(function(){
-	$(this).addClass("language-css");
+$(document).on('DOMNodeInserted', function(e) {
+	if (e.target.className == "toolbar")
+	{
+		$("code").addClass("language-clike");
+		$("code").wrap("<pre class='language-clike'></pre>");;
+		Prism.highlightAll();
+	}
 });
