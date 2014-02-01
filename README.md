@@ -7,3 +7,7 @@ Features:
 
 - Transform code blocks
 - Adding some emotes (Twitch)
+
+How to write an emote ?
+
+	#Keepo -> ![alt tag](img/emotes/Keepo.png)
