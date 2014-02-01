@@ -10,7 +10,7 @@ Features:
 
 **How to write an emote ?**
 
-| Key  | Image |
+| Img  | Key |
 | ------------- | ------------- |
 |![alt tag](img/emotes/Keepo.png) | \#Keepo  | 
 |![alt tag](img/emotes/Kappa.png) | \#Kappa  |
