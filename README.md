@@ -10,8 +10,8 @@ Features:
 
 **How to write an emote ?**
 
-| Img  | Key |
-| ------------- | ------------- |
+| img  | key | img  | key | img | key |
+| ------------- | ------------- | ------- | ----- | ----- | ----- |
 | ![alt tag](img/emotes/4Head.png) | #4Head | ![alt tag](img/emotes/KZassault.png) | #KZassault | ![alt tag](img/emotes/SoBayed.png) | #SoBayed |
 | ![alt tag](img/emotes/ArsonNoSexy.png) | #ArsonNoSexy | | | ![alt tag](img/emotes/KZcover.png) | #KZcover | | | ![alt tag](img/emotes/SoonerLater.png) | #SoonerLater |
 | ![alt tag](img/emotes/AsianGlow.png) | #AsianGlow | | | ![alt tag](img/emotes/KZowl.png) | #KZowl | | | ![alt tag](img/emotes/StoneLightning.png) | #StoneLightning |
