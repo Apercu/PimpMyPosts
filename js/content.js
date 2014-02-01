@@ -10,7 +10,6 @@ $(document).on('DOMNodeInserted', function(e) {
 		$('.answer').click(function(){
 			setCode();
 			setEmotes();
-			console.log("KIDDING");
 		});
 	}
 	if (e.target.className == "item" && loaded == 1) {
@@ -28,12 +27,10 @@ $(document).on('DOMSubtreeModified', function(e) {
 	}
 });
 
-function replaceAll(str, chr, rep) {
-	while (-1 != str.indexOf(chr)) {
-		str = str.replace(chr, rep);
-	}
-	return (str);
-}
+String.prototype.replaceAll = function (find, replace) {
+	var str = this;
+	return str.replace(new RegExp(find.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&'), 'g'), replace);
+};
 
 function setCode() {
 
@@ -53,7 +50,7 @@ function setEmotes() {
 		posts.each(function (index, post) {
 			var res = $(post).html();
 			emotes.forEach(function (emote) {
-				res = replaceAll(res, emote.key, '<img alt="PMP" src="' + chrome.extension.getURL("img/emotes/" + emote.img) + '"/>');
+				res = res.replaceAll(emote.key, "<img alt='PMP' src='" + chrome.extension.getURL("img/emotes/" + emote.img) + "'/>")
 			});
 			$(post).html(res);
 		});
