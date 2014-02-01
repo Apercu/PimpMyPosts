@@ -34,7 +34,7 @@ Features:
 | ![alt tag](img/emotes/EagleEye.png) | #EagleEye | ![alt tag](img/emotes/PanicVis.png) | #PanicVis | ![alt tag](img/emotes/WholeWheat.png) | #WholeWheat |
 | ![alt tag](img/emotes/EleGiggle.png) | #EleGiggle | ![alt tag](img/emotes/PazPazowitz.png) | #PazPazowitz | ![alt tag](img/emotes/WinWaker.png) | #WinWaker |
 | ![alt tag](img/emotes/EvilFetus.png) | #EvilFetus | ![alt tag](img/emotes/PeoplesChamp.png) | #PeoplesChamp | ![alt tag](img/emotes/YouWHY.png) | #YouWHY |
-| ![alt tag](img/emotes/FPSMarksman.png) | #FPSMarksman | ![alt tag](img/emotes/PicoMause.png) | #PicoMause | ![alt tag](img/emotes/aneleanele.png) | #aneleanele |
+| ![alt tag](img/emotes/FPSMarksman.png) | #FPSMarksman | ![alt tag](img/emotes/PicoMause.png) | #PicoMause | ![alt tag](img/emotes/Laught.png) | #:D |
 | ![alt tag](img/emotes/FUNgineer.png) | #FUNgineer | ![alt tag](img/emotes/PipeHype.png) | #PipeHype | ![alt tag](img/emotes/Bar.png) | #:/ |
 | ![alt tag](img/emotes/FailFish.png) | #FailFish | ![alt tag](img/emotes/PogChamp.png) | #PogChamp | ![alt tag](img/emotes/Wink.png) | #;) |
 | ![alt tag](img/emotes/FrankerZ.png) | #FrankerZ | ![alt tag](img/emotes/Poooound.png) | #Poooound | ![alt tag](img/emotes/Cry.png) | #:( |
@@ -47,4 +47,4 @@ Features:
 | ![alt tag](img/emotes/ItsBoshyTime.png) | #ItsBoshyTime | ![alt tag](img/emotes/SMSkull.png) | #SMSkull | ![alt tag](img/emotes/Surprised.png) | #:o |
 | ![alt tag](img/emotes/JKanStyle.png) | #JKanStyle | ![alt tag](img/emotes/SSSsss.png) | #SSSsss | ![alt tag](img/emotes/Sleep.png) | #:z |
 | ![alt tag](img/emotes/Jebaited.png) | #Jebaited | ![alt tag](img/emotes/ShazBotstix.png) | #ShazBotstix | ![alt tag](img/emotes/Smile.png) | #:) |
-| ![alt tag](img/emotes/JonCarnage.png) | #JonCarnage | | | ![alt tag](img/emotes/Laught.png) | #:D |
+| ![alt tag](img/emotes/JonCarnage.png) | #JonCarnage | ![alt tag](img/emotes/aneleanele.png) | #aneleanele |  |  |
