@@ -47,4 +47,4 @@ Features:
 | ![alt tag](img/emotes/ItsBoshyTime.png) | #ItsBoshyTime | ![alt tag](img/emotes/SMSkull.png) | #SMSkull | ![alt tag](img/emotes/Surprised.png) | #:o |
 | ![alt tag](img/emotes/JKanStyle.png) | #JKanStyle | ![alt tag](img/emotes/SSSsss.png) | #SSSsss | ![alt tag](img/emotes/Sleep.png) | #:z |
 | ![alt tag](img/emotes/Jebaited.png) | #Jebaited | ![alt tag](img/emotes/ShazBotstix.png) | #ShazBotstix | ![alt tag](img/emotes/Smile.png) | #:) |
-| ![alt tag](img/emotes/JonCarnage.png) | #JonCarnage | ![alt tag](img/emotes/Laught.png) | #:D |
+| ![alt tag](img/emotes/JonCarnage.png) | #JonCarnage | | | ![alt tag](img/emotes/Laught.png) | #:D |
