@@ -51,7 +51,7 @@ function setEmotes() {
 			var res = $(post).html();
 			emotes.forEach(function (emote) {
 				res = res.replaceAll(emote.key, "<img alt='PMP' src='" + chrome.extension.getURL("img/emotes/" + emote.img) + "'/>")
-				res = res.replace(/--[ ]*\sGeff\n/g, '');
+				res = res.replace(/--[ ]*\sGeff\s/g, '');
 			});
 			$(post).html(res);
 		});
